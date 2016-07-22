@@ -8,10 +8,10 @@ from bosonnlp import BosonNLP
 NODE_URL = 'https://www.zhihu.com/node/QuestionAnswerListV2'
 PAGESIZE = 10
 MAX_COUNT = 50
-DEFAULT_KEY = '1pzQ3lO3.8646.kLm3DFG9Lwxa'
+DEFAULT_KEY = ''
 DEFAULT_LEVEL = 2
 FORCE = False
-USAGE = ('usage: python3 zhihu-get.py -u <url> -k <bosonnlp_api_key> -c [count] -l [level] [--force]\n\n'
+USAGE = ('usage: python3 zhihu-keywords.py -u <url> -k <bosonnlp_api_key> -c [count] -l [level] [--force]\n\n'
 	'level=0: Location Only;\n'
 	'level=1: Person Only;\n'
 	'level=2: Product Only;\n'
