@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Usage: python3 douban-top250.py [start]
 
@@ -95,7 +95,6 @@ def getPlayableMovies (start):
 			getMovieDetail(movie_url)
 		else:
 			print('\n', movie_no, '不可播放', movie_name)
-
 
 if __name__ == '__main__':
 	printAuthor()

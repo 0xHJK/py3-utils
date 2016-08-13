@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Usage: python3 zhihu-photos.py -u https://www.zhihu.com/question/25361867
 
